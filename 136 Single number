@@ -1,0 +1,15 @@
+var singleNumber = function(nums) {
+    let double = []
+    let single = []
+  
+     while(nums.length!=0){
+         let temp = nums.shift()
+         if(nums.includes(temp) || double.includes(temp) ){
+            double.push(temp) 
+         }else{
+             single.push(temp)
+         }
+         
+     }  
+       return single
+};
