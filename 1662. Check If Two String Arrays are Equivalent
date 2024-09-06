@@ -1,0 +1,9 @@
+var arrayStringsAreEqual = function(word1, word2) {
+    resullt1 =word1.join("")
+    resullt2 =word2.join("")
+
+    return  resullt1==resullt2?true:false
+
+  
+
+};
